@@ -1,0 +1,11 @@
+# pyinstaller --add-data "BudgetTree.json" --icon=icon_financetree.ico -n FinanceTree main.py
+
+# pyinstaller --add-data "directory.json;." --hidden-import=prettytable -n FinanceTree main.py
+
+# pyinstaller --add-data "directory.json;." --hidden-import=prettytable --icon=icon_financetree.ico -n FinanceTree3 main.py
+
+# pyinstaller --add-data "Tree.xlsx;data" --add-data "Transactions.xlsx;data" --icon=icon_financetree.ico -n FinanceTreeApp main.py
+
+# pyinstaller --add-data "Tree.xlsx;." --add-data "Transactions.xlsx;." --icon=icon_financetree.ico -n FinanceTreeApp main.py
+
+# pyinstaller --add-data "BudgetTree2.json;." --add-data "Transactions.xlsx;." --icon=icon_financetree.ico -n FinanceTreeApp2 main.py
